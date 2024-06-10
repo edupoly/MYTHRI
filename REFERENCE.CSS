@@ -1,0 +1,38 @@
+body{
+    background-color:#c7d3d4ff;
+}
+.header{
+    height: 100PX;
+    width: 500PX;
+    background-color: #603f83ff;
+    color: #c7d3d4ff;
+    
+    border: 1px solid #603f83ff;
+    margin-top: 10px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+     /* Arrange rows vertically */
+     mix-blend-mode: multiply;
+}
+
+.flex-row {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 50px; /* Distribute boxes evenly */
+}
+
+
+img{
+    border: 3px solid #603f83ff;
+    border-radius: 10px;
+  
+}
