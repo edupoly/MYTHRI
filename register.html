@@ -68,7 +68,8 @@
                     })
                     .then(res=>res.json())
                     .then(data=>{
-                        if(data.msg==='loginsuccess'){
+                        console.log(data)
+                        if(data.msg==='registrationsuccess'){
                             alert("Registered Succesfully... Login now")
                             window.localStorage.setItem("token",data.token)
                             window.location.href="/index.html"
